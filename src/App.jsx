@@ -3,7 +3,7 @@ import Client from "webauthn/client";
 
 function App() {
   const client = new Client({
-    pathPrefix: "https://https://bewildered-pig-ring.cyclic.app//webauthn",
+    pathPrefix: "https://bewildered-pig-ring.cyclic.app/webauthn",
   });
   const startRegister = async () => {
     await client.register({
